@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 import com.banzhi.libbsdiff.InstallUtils;
 import com.banzhi.libbsdiff.PatchCallback;
@@ -42,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.installApk).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "合成成功", Toast.LENGTH_SHORT).show();
             }
         });
     }
